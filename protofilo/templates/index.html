@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Document</title>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    </head>
+    <body>
+        
+        <div class="nav">
+            <ul >
+                <li><a href="index.html">home</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="mk.html">skills</a></li>
+            </ul>
+        </div>
+        <section id="#home">
+            <div class="home-sec">
+                <img src="\static\WhatsApp Image 2024-06-14 at 4.29.37 PM.jpeg" alt="a profile picture">
+                <h2>Hi I'm <span class="input"></span></h2>
+                <h1>Tumpala Siri</h1>
+                <p class="aboutme">Aspiring full-stack developer with a passion for crafting seamless
+                    digital experiences. Equipped with a solid foundation in both front-
+                    end and back-end technologies, I thrive in dynamic environments
+                    where I can leverage my skills to create innovative solutions. With a
+                    keen eye for detail and a commitment to continuous learning, I am
+                    driven by the challenge of mastering new languages and
+                    frameworks. I am eager to contribute my expertise to projects that
+                    push boundaries and make a meaningful impact in the tech industry
+                </p>
+                <button onclick="hire()">Hire Me</button>
+            </div>
+        </section>
+
+
+        <script>
+            var options = {
+                strings: ["Frontend Developer", "Java Developer", "Python Developer"],
+                typeSpeed: 80,
+                backSpeed: 40,
+                backDelay: 1000,
+                loop: true
+            };
+    
+            var typed = new Typed(".input", options);
+
+            function hire(){
+                alert('Thank you for hiring me')
+            }
+        </script>
+    </body>
+</html>
